@@ -36,7 +36,7 @@ accuracy = evaluate_model(model, X_test, y_test)
 
 # Streamlit app
 st.title('Crop Output Prediction')
-st.write('Accuracy of the model:', int(accuracy)*100,"%")
+st.write('Accuracy of the model:', int(accuracy*100),"%")
 
 st.sidebar.header('Input Parameters')
 
